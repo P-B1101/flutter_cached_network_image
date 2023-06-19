@@ -1,7 +1,7 @@
 name: cached_network_image_web
 description: Web implementation of CachedNetworkImage
+publish_to: "none"
 version: 1.0.2
-publish_to: "none" 
 homepage: https://github.com/Baseflow/flutter_cached_network_image
 
 environment:
@@ -16,7 +16,7 @@ dependencies:
       url: https://github.com/P-B1101/flutter_cache_manager.git
       ref: develop
       path: flutter_cache_manager
-      
+
   cached_network_image_platform_interface:
     path: ../cached_network_image_platform_interface
 
