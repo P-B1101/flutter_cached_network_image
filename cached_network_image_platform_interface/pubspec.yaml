@@ -1,5 +1,6 @@
 name: cached_network_image_platform_interface
 description: Platform interface for CachedNetworkImage
+publish_to: "none" 
 version: 2.0.0
 homepage: https://github.com/Baseflow/flutter_cached_network_image
 
@@ -11,9 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_cache_manager:
-    git: https://github.com/P-B1101/flutter_cache_manager.git
-    ref: develop
-    path: flutter_cache_manager
+    git:
+      url: https://github.com/P-B1101/flutter_cache_manager.git
+      ref: develop
+      path: flutter_cache_manager
 
 dev_dependencies:
   flutter_test:
