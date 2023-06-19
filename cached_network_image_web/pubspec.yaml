@@ -17,7 +17,7 @@ dependencies:
       path: flutter_cache_manager
 
   cached_network_image_platform_interface:
-    path: ../cached_network_image_platform_interface
+    path: ../cached_network_image_platform_interface/
 
 dev_dependencies:
   flutter_test:
